@@ -11,11 +11,16 @@ repositories {
 
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-java:4.20.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.27.0'
+    implementation 'org.seleniumhq.selenium:selenium-devtools-v131:4.27.0'
     implementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
     implementation 'junit:junit:4.13.2'
     implementation 'org.testng:testng:7.7.0'
     implementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    implementation 'com.opencsv:opencsv:5.9'
+    implementation 'me.shib.plugin:text-file-writer-maven-plugin:1.0.0'
+
+
 
 }
 test {

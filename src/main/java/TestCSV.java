@@ -68,9 +68,9 @@ public class TestCSV {
         String csvFilePath = "src/main/java/data.csv"; // Adjust based on your file location
         List<String[]> testData = readTestData(csvFilePath);
 
-        Object[][] data = new Object[testData.size() - 1][2];
-        for (int i = 1; i < testData.size(); i++) {
-            data[i - 1] = testData.get(i);
+        Object[][] data = new Object[testData.size() - 2][3];
+        for (int i = 2; i < testData.size(); i++) {
+            data[i - 2] = testData.get(i);
         }
         return data;
     }

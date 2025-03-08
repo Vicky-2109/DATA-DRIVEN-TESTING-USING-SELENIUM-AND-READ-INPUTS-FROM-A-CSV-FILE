@@ -85,8 +85,6 @@ public class AutomateCSV {
             mobilenum.sendKeys(mobile);
             driver.findElement(By.xpath("//button[.='Create Account']")).click();
 
-          ;
-
             if (loginSuccess) {
                 System.out.println("Login successful for user");
             }

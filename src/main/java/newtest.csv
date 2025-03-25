@@ -1,0 +1,5 @@
+username,password,expectedResult
+stev@gmail.com,pass123
+login123@example.com,wrongpass
+testbams@gmail.com,facegenie
+avaadmas@gmail.com,pass1234567890
